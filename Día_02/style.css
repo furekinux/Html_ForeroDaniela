@@ -1,0 +1,63 @@
+#MainTitle {
+    color: #ffffff;
+    font-size: 250%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #6C1460;
+    margin-top: 1cqmax;
+    margin-bottom: 1cqmax;
+    text-align: center;
+}
+
+.square {
+    padding: 0.3rem;
+    border: 8px double #6C1460;
+    background-color: #DE1B85
+}
+
+.square2 {
+    display: inline-block;
+    /*poner los 2 divs en la misma linea*/
+    vertical-align: top;
+    /*poner los 2 divs alineados arriba*/
+    width: 47%;
+    padding: 0.1rem;
+    /*distancia a los bordes*/
+    border: 6px double #C0D154;
+    text-indent: 3%;
+    margin-top: 2%;
+    margin-left: self;
+    margin-right: self;
+    background-color: #FAF3E3
+}
+
+.square3 {
+    display: inline-block;
+    /*poner los 2 divs en la misma linea*/
+    vertical-align: top;
+    /*poner los 2 divs alineados arriba*/
+    width: 47%;
+    padding: 0.1rem;
+    /*distancia a los bordes*/
+    border: 6px double #C0D154;
+    text-indent: 3%;
+    margin-top: 2%;
+    margin-left: self;
+    margin-right: self;
+    background-color: #FAF3E3
+}
+
+.double {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.imga {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 30%;
+}
+.imga2 {
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 10%;
+}
