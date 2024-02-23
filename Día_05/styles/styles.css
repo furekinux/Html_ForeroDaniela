@@ -1,0 +1,64 @@
+@media (min-width: 1080px){}
+html{
+    background-image: url("/media/Path 1.svg");
+}
+.backgro{
+    background-image: url("/media/Path 1.svg");
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1918px;
+    height: 4149px;
+    background: transparent url('img/Path 1.png')no-repeat;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.backgro2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    background: transparent url('img/FondoTwitch.png') no-repeat;
+    opacity: 100%;
+}
+
+.logo{
+    display:flex;
+    position: relative;
+    top: 227px;
+    left: 682px;
+    right: 682px;
+    width: 556px;
+    height: 313px;
+    background-image: url('/media/LogoPrimeE2.png');
+    background: transparent url('/media/LogoPrimeE2.png') no-repeat;
+
+}
+.buscar{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    width: 36px;
+    height: 36px;
+    margin-top: 37px;
+    margin-left: 63px;
+    text-align: left;
+    background: url('/media/Icon awesome-search.svg') no-repeat;
+    opacity: 1;
+}
+
+.login{
+    display: contents; /*QUE*/
+    position: absolute;
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    cursor: pointer;
+    border: none;
+    background: transparent url('/media/Group 1.svg') no-repeat;
+    opacity: 1;
+}
