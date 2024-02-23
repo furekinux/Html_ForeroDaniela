@@ -1,74 +1,222 @@
 <!DOCTYPE html>
-<html class="paggen" lang="en">
-    <link href="/styles/styles.css" rel="stylesheet" type="text/css" media="screen, projection"/>
-    <title>Formulario de registro - Mi web</title>
-    <div class="square">
-        <head>
-            <meta charset="UTF-8">
-            
-            <div class="square2">
-                <h1>Registre sus datos</h1>
-            </div>
-        </head>
-        <body>
-            <div class="squaretoo">
-                <form action="indextoo.html" method="get"> 
-                    <table>
-                        <tr><!--NOMBRES-->
-                            <td class="lil"><h4>Nombres</h4></td>
-                            <td><input class="sillysquare" type="text" name="Nombres" maxlength="50" minlength="3" placeholder="Ingrese sus nombres..."></td>
-                        </tr>
-                        <tr><!--APELLIDOS-->
-                            <td class="lil"><h4>Apellidos</h4></td>
-                            <td><input class="sillysquare" type="text" name="Apellidos" maxlength="50" minlength="3" placeholder="Ingrese sus apellidos..."></td>
-                        </tr>
-                        <tr><!--SEXO: female-->
-                            <td rowspan="2" class="lil"><h4>Sexo</h4></td>
-                            <td><input type="radio" id="mujer1" name="Gender"
-                            value="Mujer"/>
-                            <label for="mujer1">Mujer</label>
-                        </tr>
-                        <tr><!--SEXO: male-->
-                            <td><input type="radio" id="hombre2" name="Gender"
-                                value="Hombre"/>
-                                <label for="hombre2">Hombre</label></td>
-                        </tr>
-                        <tr><!--CORREO ELECTRÓNICO-->
-                            <td class="lil"><h4>Correo electrónico</h4></td>
-                            <td><input class="sillysquare" type="email" name="Email" maxlength="50" minlength="5" placeholder="Ingrese su correo electrónico..."></td>
-                        </tr>
-                        <tr><!--POBLACIÓN-->
-                            <td class="lil"><h4>Población</h4></td>
-                            <td><input class="sillysquare" list="Poblacion" placeholder="Seleccione su población">
-                                <datalist id="Poblacion">
-                                    <option value="Bucaramanga" />
-                                    <option value="Girón" />
-                                    <option value="Floridablanca " />
-                                    <option value="Piedecuesta" />
-                                </datalist>
-                            </td>
-                        </tr>
-                        <tr><!--DESCRIPCIÓN-->
-                            <td class="lil"><h4>Descripción</h4></td>
-                            <td><input class="silliersquare" type="text" name="Descripción" maxlength="50" minlength="3" placeholder="Ingrese una descripción..."></td>
-                        </tr>
-                        <tr><!--VERIFICACIÓN 1-->
-                            <td class="lil" colspan="2"><h4>Deseo recibir información sobre novedades y ofertas</h4></td>
-                            <td><input class="sillysquare" type="checkbox"></td>
-                        </tr>
-                        <tr><!--VERIFICACIÓN 2-->
-                            <td class="lil" colspan="2"><h4>Con el texto "Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos.</h4></td>
-                            <td><input class="sillysquare" type="checkbox"></td>
-                        </tr>
-                    </table>
-                </div>
-                    <div class="square3"><!--ENVIO/RESET-->
-                        <input type="submit">
-                        <input type="reset">
-                        
-                    </div>
-                </form>
-            
-        </body>
+<html lang="en" class="paggen">
+    <link href="/style/style.css" rel="stylesheet" type="text/css" media="screen, projection"/>
+    
+    <title>Users</title>
+    <head>
+        <div>
+            <h1 class="quare">Users available...</h1>
+        </div>
+    </head>
+    <div class="double">
+        <div class="square2"> <!-- I cried </3 -->
+            <h2 class="teburu1">“Hello, Monroe Sears! You have 10 unread messages.”</h2>
+            <table class="otter">
+                <tr>
+                    <td class="teburu1"><b>ID</b></td>
+                    <td colspan="2">65d5fc2a8d655139061dffee</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Index</b></td>
+                    <td colspan="2">0</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Guid</b></td>
+                    <td colspan="2">850cb375-5281-4b7f-b769-e8119877e3e9</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Is active</b></td>
+                    <td colspan="2">False</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Balance</b></td>
+                    <td colspan="2">$2,647.81
+                    </td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Picture</b></td>
+                    <td colspan="2">http://placehold.it/32x32</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Age</b></td>
+                    <td colspan="2">39</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Eye color</b></td>
+                    <td colspan="2">Green</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Name</b></td>
+                    <td colspan="2">Monroe Sears</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Gender</b></td>
+                    <td colspan="2">Male</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Company</b></td>
+                    <td colspan="2"><u>UNIWORLD</u></td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Email</b></td>
+                    <td colspan="2">monroesears@uniworld.com</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Phone</b></td>
+                    <td colspan="2">+1 (800) 578-2346</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Address</b></td>
+                    <td colspan="2">734 Times Placez, Coyote, Arkansas, 2908</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>About</b></td>
+                    <td colspan="2">"Dolore nisi ad tempor ullamco esse. Excepteur consequat labore aliqua eiusmod consequat laboris excepteur aliquip aliqua incididunt. Pariatur enim labore officia eu quis ex aliqua proident laboris labore anim nulla."</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Registered</b></td>
+                    <td colspan="2">2020-04-08T01:20:04 +05:00</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Latitude</b></td>
+                    <td>-3.925674</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Longitude</b></td>
+                    <td colspan="2">-88.910095</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Tags</b></td>
+                    <td colspan="2">#anim #elit #laboris #elit #voluptate #adipisicing #incididunt</td>
+                </tr>
+                <tr>
+                    <td class="teburu1" rowspan="4"><b>Friends</b></td>
+                    <td class="teburu1"><b>ID</b></td>
+                    <td class="teburu1"><b>Name</b></td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>Mcdaniel Vaughn</td>
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Bobbie Callahan</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ellen Weeks</td>
+                </tr>
+                <tr>
+                    <td class="teburu1"><b>Favorite Fruit</b></td>
+                    <td colspan="2">Banana</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="square1"> <!-- Very happy :D -->
+            <h2 class="teburu">"Hello, Dionne Aguilar! You have 8 unread messages."</h2>
+            <table class="otter">
+                <tr>
+                    <td class="teburu"><b>ID</b></td>
+                    <td colspan="2">65d5fc2a950f5c2227332bf1</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Index</b></td>
+                    <td colspan="2">1</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Guid</b></td>
+                    <td colspan="2">9bd5f950-c2f2-4f8c-9084-f4dfc2598864</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Is active</b></td>
+                    <td colspan="2">False</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Balance</b></td>
+                    <td colspan="2">$2,305.53
+                    </td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Picture</b></td>
+                    <td colspan="2">http://placehold.it/32x32</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Age</b></td>
+                    <td colspan="2">35</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Eye color</b></td>
+                    <td colspan="2">Brown</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Name</b></td>
+                    <td>Dionne Aguilar</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Gender</b></td>
+                    <td colspan="2">Female</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Company</b></td>
+                    <td colspan="2"><u>TROPOLIS</u></td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Email</b></td>
+                    <td colspan="2">dionneaguilar@tropolis.com</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Phone</b></td>
+                    <td colspan="2">+1 (956) 401-2654</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Address</b></td>
+                    <td colspan="2">839 Canarsie Road, Sena, Washington, 5390</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>About</b></td>
+                    <td colspan="2">“Excepteur enim fugiat ullamco amet irure irure. Aute Lorem magna aute nisi enim ex elit elit eu quis. Culpa sit cupidatat voluptate aliquip voluptate. Ea officia occaecat anim labore.”</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Registered</b></td>
+                    <td colspan="2">2017-12-01T02:48:31 +05:00</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Latitude</b></td>
+                    <td colspan="2">-10.478908</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Longitude</b></td>
+                    <td colspan="2">99.512436</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Tags</b></td>
+                    <td colspan="2">#est #ea #minim #exercitation #eiusmod #commodo #ut</td>
+                </tr>
+                <tr>
+                    <td  class="teburu" rowspan="4"><b>Friends</b></td>
+                    <td  class="teburu"><b>ID</b></td>
+                    <td  class="teburu"><b>Name</b></td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>Coleman Johnston</td>
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Lacy Osborn</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Frieda Mendez</td>
+                </tr>
+                <tr>
+                    <td class="teburu"><b>Favorite Fruit</b></td>
+                    <td colspan="2">Strawberry</td>
+                </tr>
+            </table>
+        </div>
     </div>
 </html>
