@@ -13,7 +13,6 @@
     border: 8px double #E1F0C4;
 }
 .squaretoo{
-    
     color: #5E4C5A;
     background-color: #ffffff;
     border-radius: 25px;
@@ -25,7 +24,8 @@
     padding-left: 4%;
     padding-right: 4%;
     padding: 2%;
-    border: 8px solid #ffffff;
+    border: 8px double #55917F;
+    overflow: hidden;
 }
 .paggen{
     background-color: #5E4C5A;
