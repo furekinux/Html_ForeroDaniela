@@ -1,0 +1,71 @@
+.square{
+    color: #5E4C5A;
+    background-color: #6BAB90;
+    border-radius: 25px;
+    margin:2%;
+    flex: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 0.5%;
+    padding: 2%;
+    border: 8px double #E1F0C4;
+}
+.squaretoo{
+    color: #5E4C5A;
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    flex: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding: 2%;
+    border: 8px solid #ffffff;
+}
+.paggen{
+    background-color: #5E4C5A;
+}
+.square2{
+    color: #5E4C5A;
+    background-color: #E1F0C4;
+    border-radius: 20px;
+    text-align: center;
+    flex: auto;
+    border: 8px double #55917F;
+    padding: 1%;
+    font-weight: 400;
+}
+.square3{
+    color: #5E4C5A;
+    background-color: #E1F0C4;
+    border-radius: 20px;
+    text-align: center;
+    flex: auto;
+    border: 8px double #55917F;
+    padding: 1%;
+    font-weight: 400;
+}
+.lil{
+    color: #5E4C5A;
+    background-color: #E1F0C4;
+    border-radius: 14px;
+    padding-left: 2%;
+    border: 6px double #ffffff;
+}
+.sillysquare{
+    width: 95%;
+    height: auto;
+    border-radius: 8px; 
+    border: 1px solid #55917F;
+    padding: 5px;
+}
+.silliersquare{
+    width: 95%;
+    height:200px;
+    border-radius: 8px; 
+    border: 1px solid #55917F;
+    padding: 5px;
+    text-align:"left";
+}
