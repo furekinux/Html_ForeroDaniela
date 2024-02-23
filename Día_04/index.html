@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html class="paggen" lang="en">
-    
     <link href="/styles/styles.css" rel="stylesheet" type="text/css" media="screen, projection"/>
     <title>Formulario de registro - Mi web</title>
     <div class="square">
@@ -12,48 +11,64 @@
             </div>
         </head>
         <body>
-            <div>
-                <form action="indextoo.html"> 
+            <div class="squaretoo">
+                <form action="indextoo.html" method="get"> 
                     <table>
                         <tr><!--NOMBRES-->
-                            <td><h4>Nombres</h4></td>
-                            <td><input type="text" name="Nombres" maxlength="50" minlength="3" placeholder="Ingrese sus nombres..."></td>
+                            <td class="lil"><h4>Nombres</h4></td>
+                            <td><input class="sillysquare" type="text" name="Nombres" maxlength="50" minlength="3" placeholder="Ingrese sus nombres..."></td>
                         </tr>
                         <tr><!--APELLIDOS-->
-                            <td><h4>Apellidos</h4></td>
-                            <td><input type="text" name="Apellidos" maxlength="50" minlength="3" placeholder="Ingrese sus apellidos..."></td>
+                            <td class="lil"><h4>Apellidos</h4></td>
+                            <td><input class="sillysquare" type="text" name="Apellidos" maxlength="50" minlength="3" placeholder="Ingrese sus apellidos..."></td>
                         </tr>
                         <tr><!--SEXO: female-->
-                            <td rowspan="2"><h4>Sexo</h4></td>
-                            <td><input type="radio" id="mujer1" name="Apellidos"
+                            <td rowspan="2" class="lil"><h4>Sexo</h4></td>
+                            <td><input type="radio" id="mujer1" name="Gender"
                             value="Mujer"/>
                             <label for="mujer1">Mujer</label>
                         </tr>
                         <tr><!--SEXO: male-->
-                            <td><input type="radio" id="hombre2" name="Apellidos"
+                            <td><input type="radio" id="hombre2" name="Gender"
                                 value="Hombre"/>
                                 <label for="hombre2">Hombre</label></td>
                         </tr>
                         <tr><!--CORREO ELECTRÓNICO-->
-                            <td><h4>Correo electrónico</h4></td>
-                            <td><input type="email" name="Email" maxlength="50" minlength="5" placeholder="Ingrese su correo electrónico..."></td>
+                            <td class="lil"><h4>Correo electrónico</h4></td>
+                            <td><input class="sillysquare" type="email" name="Email" maxlength="50" minlength="5" placeholder="Ingrese su correo electrónico..."></td>
                         </tr>
-
+                        <tr><!--POBLACIÓN-->
+                            <td class="lil"><h4>Población</h4></td>
+                            <td><input class="sillysquare" list="Poblacion" placeholder="Seleccione su población">
+                                <datalist id="Poblacion">
+                                    <option value="Bucaramanga" />
+                                    <option value="Girón" />
+                                    <option value="Floridablanca " />
+                                    <option value="Piedecuesta" />
+                                </datalist>
+                            </td>
+                        </tr>
+                        <tr><!--DESCRIPCIÓN-->
+                            <td class="lil"><h4>Descripción</h4></td>
+                            <td><input class="silliersquare" type="text" name="Descripción" maxlength="50" minlength="3" placeholder="Ingrese una descripción..."></td>
+                        </tr>
                         <tr><!--VERIFICACIÓN 1-->
-                            <td colspan="2"><p>Deseo recibir información sobre novedades y ofertas</p></td>
-                            <td><input type="checkbox"></td>
+                            <td class="lil" colspan="2"><h4>Deseo recibir información sobre novedades y ofertas</h4></td>
+                            <td><input class="sillysquare" type="checkbox"></td>
                         </tr>
                         <tr><!--VERIFICACIÓN 2-->
-                            <td colspan="2"><p>Con el texto "Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos.</p></td>
-                            <td><input type="checkbox"></td>
+                            <td class="lil" colspan="2"><h4>Con el texto "Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos.</h4></td>
+                            <td><input class="sillysquare" type="checkbox"></td>
                         </tr>
                     </table>
-                    <div class="square2"><!--ENVIO/RESET-->
+                </div>
+                    <div class="square3"><!--ENVIO/RESET-->
                         <input type="submit">
                         <input type="reset">
                         
                     </div>
                 </form>
+            
         </body>
     </div>
 </html>
