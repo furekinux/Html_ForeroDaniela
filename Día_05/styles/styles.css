@@ -1,21 +1,9 @@
 @media (min-width: 1080px){}
+/*BACKGROUND*/
 html{
     background: transparent url("/media/Path 1.svg") no-repeat;
     width: 1918px;
     height: 4149px;}
-
-.logo{
-    background-image: url('/media/LogoPrimeE2.png');
-    display: block;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 227px;
-    width: 556px;
-    height: 313px;
-    background: transparent;
-    opacity: 1;}
-
 .backgro2{
     background-image: url("/media/FondoTwitch.png");
     position: absolute;
@@ -23,9 +11,11 @@ html{
     left: 0px;
     width: 1920px;
     height: 1080px;
-    background: transparent url('img/FondoTwitch.png') no-repeat;
+    background: transparent;
     opacity: 1;}
 
+
+/*HEADING*/
 .buscar{
     display: block;
     position: absolute;
@@ -50,32 +40,35 @@ html{
     border: none;
     background: transparent url('/media/Group 1.svg') no-repeat;
     opacity: 1;}
-
 .logtext{
     display: block; /*QUE*/
     position: absolute;
-    text-align: center;
     top: 48px;
     left: 1773px;
     width: 50px;
     height: 20px;
-    border: none;
-    background: transparent url('/media/Login.svg') no-repeat;
+    background: transparent;
     opacity: 1;}
 
+.logo{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 227px;
+    width: 556px;
+    height: 313px;
+    background: transparent;
+    opacity: 1;}
 .favcon{
     display: block; /*QUE*/
     position: absolute;
-    text-align: center;
     top: 517px;
     left: 389px;
     width: 1151px;
     height: 60px;
-    cursor: pointer;
-    border: none;
-    background: transparent url('/media/Your favorite content, on one place only.svg') no-repeat;
+    background: transparent url('/media/Your favorite content, on one place only..svg') no-repeat;
     opacity: 1;}
-
 .nowyou{
     display: block; /*QUE*/
     position: absolute;
@@ -84,8 +77,6 @@ html{
     left: 380px;
     width: 1160px;
     height: 102px;
-    cursor: pointer;
-    border: none;
     background: transparent;
     opacity: 1;}
 
@@ -100,7 +91,6 @@ html{
     cursor:pointer;
     border-radius: 52px;
     opacity: 1;}
-
 .signuptext{
     display: block;
     position: absolute;
@@ -112,23 +102,15 @@ html{
     opacity: 1;}
 
 
-
-
-.theres{
-    display: block;
-    position: absolute;
-    top: 3296px;
-    left: 181px;
-    width: 1544px;
-    height: 99px;
-    opacity: 1;
-    background: transparent;}
+/*LIVE CONTENT*/
 
 
 
 
 
 
+
+/*VARIETY*/
 .rec2{
     display: block;
     position: absolute;
@@ -139,7 +121,6 @@ html{
     background: transparent;
     border-radius: 108px;
     opacity: 1;}
-    
 .dontlike{
     display: block;
     position: absolute;
@@ -149,17 +130,7 @@ html{
     height: 60px;
     background: transparent;
     opacity: 1;}
-    
-.variety{
-    display: block;
-    position: absolute;
-    top: 2286px;
-    left: 207px;
-    width: 1492px;
-    height: 110px;
-    background: transparent;
-    opacity: 1;}
-    
+
 .spacemovie{
     display: block;
     position: absolute;
@@ -169,8 +140,7 @@ html{
     height: 309px;
     background: transparent;
     border: 1px solid #707070;
-    opacity: 1;}
-    
+    opacity: 1;} 
 .redmovie{
     display: block;
     position: absolute;
@@ -180,8 +150,7 @@ html{
     height: 309px;
     background: transparent;
     border: 1px solid #707070;
-    opacity: 1;}
-    
+    opacity: 1;}  
 .soulmovie{
     display: block;
     position: absolute;
@@ -191,8 +160,7 @@ html{
     height: 309px;
     background: transparent;
     border: 1px solid #707070;
-    opacity: 1;}
-    
+    opacity: 1;}  
 .tentmovie{
     display: block;
     position: absolute;
@@ -203,7 +171,6 @@ html{
     background: transparent;
     border: 1px solid #707070;
     opacity: 1;}
-    
 .sentimovie{
     display: block;
     position: absolute;
@@ -214,8 +181,19 @@ html{
     background: transparent;
     border: 1px solid #707070;
     opacity: 1;}
-    
 
+.variety{
+    display: block;
+    position: absolute;
+    top: 2286px;
+    left: 207px;
+    width: 1492px;
+    height: 110px;
+    background: transparent;
+    opacity: 1;}
+
+
+/*CANCEL*/
 .rec3{
     display: block;
     position: absolute;
@@ -255,6 +233,7 @@ html{
     opacity: 1;}
 
 
+/*COMPATIBILITY*/
 .compatible{
     display: block;
     position: absolute;
@@ -264,6 +243,16 @@ html{
     height: 125px;
     background: transparent;
     opacity: 1;}
+.theres{
+    display: block;
+    position: absolute;
+    top: 3296px;
+    left: 181px;
+    width: 1544px;
+    height: 99px;
+    opacity: 1;
+    background: transparent;}
+
 .mac{
     display: block;
     position: absolute;
@@ -293,6 +282,7 @@ html{
     background: transparent url('/media/Image 3.png') no-repeat;}
 
 
+/*LEGAL INFO*/
 .powered{
     display: block;
     position: absolute;
@@ -311,7 +301,6 @@ html{
     height: 241px;
     opacity: 1;
     background: transparent;}
-
 
 .legal{
     display: block;
