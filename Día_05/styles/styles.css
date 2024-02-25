@@ -1,41 +1,42 @@
 @media (min-width: 1080px){}
 html{
-    background-image: url("/media/Path 1.svg");
-}
+    background: transparent url("/media/Path 1.svg") no-repeat;
+    width: 1918px;
+    height: 4149px;}
+
+.logo{
+    background-image: url('/media/LogoPrimeE2.png');
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 227px;
+    width: 556px;
+    height: 313px;
+    background: url('img/FondoTwitch.png') no-repeat;
+    opacity: 1;}
+
 .backgro{
     background-image: url("/media/Path 1.svg");
-    position: relative;
+    position: absolute;
     top: 0px;
     left: 0px;
     width: 1918px;
     height: 4149px;
-    background: transparent url('img/Path 1.png')no-repeat;
+    background: transparent url('img/Path 1.png') no-repeat;
     border: 1px solid #707070;
-    opacity: 1;
-}
+    opacity: 1;}
 
 .backgro2{
+    background-image: url("/media/FondoTwitch.png");
     position: absolute;
     top: 0px;
     left: 0px;
     width: 1920px;
     height: 1080px;
     background: transparent url('img/FondoTwitch.png') no-repeat;
-    opacity: 100%;
-}
+    opacity: 1;}
 
-.logo{
-    display:flex;
-    position: relative;
-    top: 227px;
-    left: 682px;
-    right: 682px;
-    width: 556px;
-    height: 313px;
-    background-image: url('/media/LogoPrimeE2.png');
-    background: transparent url('/media/LogoPrimeE2.png') no-repeat;
-
-}
 .buscar{
     display: block;
     position: absolute;
@@ -43,22 +44,202 @@ html{
     border: none;
     width: 36px;
     height: 36px;
-    margin-top: 37px;
-    margin-left: 63px;
-    text-align: left;
+    top: 37px;
+    left: 63px;
     background: url('/media/Icon awesome-search.svg') no-repeat;
-    opacity: 1;
-}
+    opacity: 1;}
 
 .login{
-    display: contents; /*QUE*/
+    display: block;
     position: absolute;
     top: 30px;
+    right: 20px;
     left: 1695px;
     width: 205px;
     height: 54px;
     cursor: pointer;
     border: none;
     background: transparent url('/media/Group 1.svg') no-repeat;
+    opacity: 1;}
+
+.logtext{
+    display: block; /*QUE*/
+    position: absolute;
+    text-align: center;
+    top: 48px;
+    left: 1773px;
+    width: 50px;
+    height: 20px;
+    border: none;
+    background: transparent url('/media/Login.svg') no-repeat;
+    opacity: 1;}
+
+.favcon{
+    display: block; /*QUE*/
+    position: absolute;
+    text-align: center;
+    top: 517px;
+    left: 389px;
+    width: 1151px;
+    height: 60px;
+    cursor: pointer;
+    border: none;
+    background: transparent url('/media/Your favorite content, on one place only.svg') no-repeat;
+    opacity: 1;}
+
+.nowyou{
+    display: block; /*QUE*/
+    position: absolute;
+    text-align: center;
+    top: 608px;
+    left: 380px;
+    width: 1160px;
+    height: 102px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    opacity: 1;}
+
+.signup{
+    display:block;
+    position: absolute;
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+    background: transparent;
+    cursor:pointer;
+    border-radius: 52px;
+    opacity: 1;}
+
+.signuptext{
+    display: block;
+    position: absolute;
+    top: 787px;
+    left: 780px;
+    width: 360px;
+    height: 40px;
+    background: transparent url('/media/Sign-Up on Amazon.svg')no-repeat;
+    opacity: 1;}
+
+.mac{
+    display: block;
+    position: absolute;
+    top: 3440px;
+    left: 685px;
+    width: 584px;
+    height: 534px;
+    background: transparent url('/media/Image 1.png') no-repeat;
+    opacity: 1;}
+
+.iphone{
+    display: block;
+    position: absolute;
+    top: 3606px;
+    left: 386px;
+    width: 256px;
+    height: 219px;
+    opacity: 1;
+    background: transparent url('/media/Image 2.png') no-repeat;}
+
+.pc{
+    display: block;
+    position: absolute;
+    top: 3587px;
+    left: 1261px;
+    width: 271px;
+    height: 238px;
+    opacity: 1;
+    background: transparent url('/media/Image 3.png') no-repeat;}
+
+.powered{
+    display: block;
+    position: absolute;
+    top: 3979px;
+    left: 843px;
+    width: 92px;
+    height: 20px;
+    opacity: 1;
+    background: transparent url('/media/Powered by.svg') no-repeat;}
+
+.theres{
+    display: block;
+    position: absolute;
+    top: 3296px;
+    left: 181px;
+    width: 1544px;
+    height: 99px;
+    opacity: 1;
+    background: transparent;}
+
+.cace{
+    display: block;
+    position: absolute;
+    top: 3954px;
+    left: 826px;
+    width: 430px;
+    height: 241px;
+    opacity: 1;
+    background: transparent;}
+
+.legal{
+    display: block;
+    position: absolute;
+    top: 4088px;
+    left: 543px;
+    width: 831px;
+    height: 25px;
+    background: transparent;
+    opacity: 1;}
+
+.compatible{
+    display: block;
+    position: absolute;
+    top: 3127px;
+    left: 418px;
+    width: 1118px;
+    height: 125px;
+    background: transparent;
+    opacity: 1;}
+
+.rec1{
+    display: block;
+    position: absolute;
+    top: 2467px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    background: transparent;
+    border-radius: 108px;
+    opacity: 1;}
+
+.ifyou{
+    display: block;
+    position: absolute;
+    top: 2881px;
+    left: 269px;
+    width: 1382px;
+    height: 88px;
+    background: transparent;
+    opacity: 1;}
+
+.cancel{
+    display: block;
+    position: absolute;
+    top: 2650px;
+    left: 876px;
+    width: 169px;
+    height: 169px;
+    background: transparent;
+    opacity: 1;}
+
+.canceltext{
+    display: block;
+    position: absolute;
+    top: 2546px;
+    left: 560px;
+    width: 800px;
+    height: 60px;
+    background: transparent;
     opacity: 1;
 }
