@@ -103,11 +103,15 @@ html{
 
 
 /*LIVE CONTENT*/
-
-
-
-
-
+.rec1{
+    display: block;
+    position: absolute;
+    top: 1106px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    background: transparent url('/media/Group 2.svg') no-repeat;
+    opacity: 1;}
 
 
 /*VARIETY*/
