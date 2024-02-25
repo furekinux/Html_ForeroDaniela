@@ -13,18 +13,7 @@ html{
     margin-top: 227px;
     width: 556px;
     height: 313px;
-    background: url('img/FondoTwitch.png') no-repeat;
-    opacity: 1;}
-
-.backgro{
-    background-image: url("/media/Path 1.svg");
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1918px;
-    height: 4149px;
-    background: transparent url('img/Path 1.png') no-repeat;
-    border: 1px solid #707070;
+    background: transparent;
     opacity: 1;}
 
 .backgro2{
@@ -122,45 +111,8 @@ html{
     background: transparent url('/media/Sign-Up on Amazon.svg')no-repeat;
     opacity: 1;}
 
-.mac{
-    display: block;
-    position: absolute;
-    top: 3440px;
-    left: 685px;
-    width: 584px;
-    height: 534px;
-    background: transparent url('/media/Image 1.png') no-repeat;
-    opacity: 1;}
 
-.iphone{
-    display: block;
-    position: absolute;
-    top: 3606px;
-    left: 386px;
-    width: 256px;
-    height: 219px;
-    opacity: 1;
-    background: transparent url('/media/Image 2.png') no-repeat;}
 
-.pc{
-    display: block;
-    position: absolute;
-    top: 3587px;
-    left: 1261px;
-    width: 271px;
-    height: 238px;
-    opacity: 1;
-    background: transparent url('/media/Image 3.png') no-repeat;}
-
-.powered{
-    display: block;
-    position: absolute;
-    top: 3979px;
-    left: 843px;
-    width: 92px;
-    height: 20px;
-    opacity: 1;
-    background: transparent url('/media/Powered by.svg') no-repeat;}
 
 .theres{
     display: block;
@@ -172,25 +124,136 @@ html{
     opacity: 1;
     background: transparent;}
 
-.cace{
-    display: block;
-    position: absolute;
-    top: 3954px;
-    left: 826px;
-    width: 430px;
-    height: 241px;
-    opacity: 1;
-    background: transparent;}
 
-.legal{
+
+
+
+
+.rec2{
     display: block;
     position: absolute;
-    top: 4088px;
-    left: 543px;
-    width: 831px;
-    height: 25px;
+    top: 1717px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
+    background: transparent;
+    border-radius: 108px;
+    opacity: 1;}
+    
+.dontlike{
+    display: block;
+    position: absolute;
+    top: 1773px;
+    left: 135px;
+    width: 1664px;
+    height: 60px;
     background: transparent;
     opacity: 1;}
+    
+.variety{
+    display: block;
+    position: absolute;
+    top: 2286px;
+    left: 207px;
+    width: 1492px;
+    height: 110px;
+    background: transparent;
+    opacity: 1;}
+    
+.spacemovie{
+    display: block;
+    position: absolute;
+    top: 1896px;
+    left: 477px;
+    width: 181px;
+    height: 309px;
+    background: transparent;
+    border: 1px solid #707070;
+    opacity: 1;}
+    
+.redmovie{
+    display: block;
+    position: absolute;
+    top: 1896px;
+    left: 670px;
+    width: 181px;
+    height: 309px;
+    background: transparent;
+    border: 1px solid #707070;
+    opacity: 1;}
+    
+.soulmovie{
+    display: block;
+    position: absolute;
+    top: 1896px;
+    left: 863px;
+    width: 180px;
+    height: 309px;
+    background: transparent;
+    border: 1px solid #707070;
+    opacity: 1;}
+    
+.tentmovie{
+    display: block;
+    position: absolute;
+    top: 1896px;
+    left: 1055px;
+    width: 181px;
+    height: 309px;
+    background: transparent;
+    border: 1px solid #707070;
+    opacity: 1;}
+    
+.sentimovie{
+    display: block;
+    position: absolute;
+    top: 1896px;
+    left: 1248px;
+    width: 181px;
+    height: 309px;
+    background: transparent;
+    border: 1px solid #707070;
+    opacity: 1;}
+    
+
+.rec3{
+    display: block;
+    position: absolute;
+    top: 2467px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    background: transparent;
+    border-radius: 108px;
+    opacity: 1;}
+.ifyou{
+    display: block;
+    position: absolute;
+    top: 2881px;
+    left: 269px;
+    width: 1382px;
+    height: 88px;
+    background: transparent;
+    opacity: 1;}
+.cancel{
+    display: block;
+    position: absolute;
+    top: 2650px;
+    left: 876px;
+    width: 169px;
+    height: 169px;
+    background: transparent;
+    opacity: 1;}
+.canceltext{
+    display: block;
+    position: absolute;
+    top: 2546px;
+    left: 560px;
+    width: 800px;
+    height: 60px;
+    background: transparent;
+    opacity: 1;}
+
 
 .compatible{
     display: block;
@@ -201,45 +264,61 @@ html{
     height: 125px;
     background: transparent;
     opacity: 1;}
-
-.rec1{
+.mac{
     display: block;
     position: absolute;
-    top: 2467px;
-    left: 64px;
-    width: 1792px;
-    height: 567px;
-    background: transparent;
-    border-radius: 108px;
+    top: 3440px;
+    left: 685px;
+    width: 584px;
+    height: 534px;
+    background: transparent url('/media/Image 1.png') no-repeat;
     opacity: 1;}
-
-.ifyou{
+.iphone{
     display: block;
     position: absolute;
-    top: 2881px;
-    left: 269px;
-    width: 1382px;
-    height: 88px;
-    background: transparent;
-    opacity: 1;}
-
-.cancel{
-    display: block;
-    position: absolute;
-    top: 2650px;
-    left: 876px;
-    width: 169px;
-    height: 169px;
-    background: transparent;
-    opacity: 1;}
-
-.canceltext{
-    display: block;
-    position: absolute;
-    top: 2546px;
-    left: 560px;
-    width: 800px;
-    height: 60px;
-    background: transparent;
+    top: 3606px;
+    left: 386px;
+    width: 256px;
+    height: 219px;
     opacity: 1;
-}
+    background: transparent url('/media/Image 2.png') no-repeat;}
+.pc{
+    display: block;
+    position: absolute;
+    top: 3587px;
+    left: 1261px;
+    width: 271px;
+    height: 238px;
+    opacity: 1;
+    background: transparent url('/media/Image 3.png') no-repeat;}
+
+
+.powered{
+    display: block;
+    position: absolute;
+    top: 3979px;
+    left: 843px;
+    width: 92px;
+    height: 20px;
+    opacity: 1;
+    background: transparent url('/media/Powered by.svg') no-repeat;}
+.cace{
+    display: block;
+    position: absolute;
+    top: 3954px;
+    left: 826px;
+    width: 430px;
+    height: 241px;
+    opacity: 1;
+    background: transparent;}
+
+
+.legal{
+    display: block;
+    position: absolute;
+    top: 4088px;
+    left: 543px;
+    width: 831px;
+    height: 25px;
+    background: transparent;
+    opacity: 1;}
