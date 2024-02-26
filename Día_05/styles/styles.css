@@ -1,4 +1,9 @@
 @media (min-width: 1080px){}
+@font-face {
+    font-family: AmazonEmber;
+    src: url("/home/user/Vídeos/Salamandra/fonts/Ember");
+}
+
 /*BACKGROUND*/
 html{
     background: transparent url("/media/Path 1.svg") no-repeat;
@@ -17,6 +22,7 @@ html{
 
 /*HEADING*/
 .buscar{
+    font-family: AmazonEmber;
     display: block;
     position: absolute;
     cursor: pointer;
@@ -284,6 +290,28 @@ html{
     height: 238px;
     opacity: 1;
     background: transparent url('/media/Image 3.png') no-repeat;}
+
+.flechal{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    top: 3689px;
+    left: 305px;
+    width: 19px;
+    height: 27px;
+    background: transparent;
+    opacity: 1;}
+.flechar{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    top: 3702px;
+    left: 1575px;
+    width: 18px;
+    height: 26px;
+    transform: scaleX(-1);
+    background: transparent;
+    opacity: 1;}
 
 
 /*LEGAL INFO*/
