@@ -1,0 +1,302 @@
+/*==============*/
+html{
+    size-adjust: 1080px;
+    top: 0px;
+    left: 0px;
+    width: 1600px;
+    height: 1200px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) no-repeat;
+    opacity: 1;}
+@font-face {
+    font-family: "Open Sans";
+    src: url(/font/static/OpenSans-Regular.ttf);}
+.rectwhite{
+    display: block;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 200px;
+    bottom: 200px;
+    left: 100px;
+    right: 100px;
+    width: 1400px;
+    height: 800px;
+    border: 1px solid #707070;
+    opacity: 1;
+    border-radius: 0px 10px 10px 0px;}
+/*==============*/
+
+/*CANTIDAD BARRA*/
+.cant{
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 1290px;
+    width: 110px;
+    height: 800px;
+    background-color: #212020;
+    border-radius: 0px 8px 8px 0px;
+    opacity: 1;}
+.txtcant{
+    display: block;
+    text-align: left;
+    position: absolute;
+    font-family: "Open Sans";
+    font-size: 20px;
+    color: #FFFFFF;
+    right: 13px;
+    left: 13px;
+    top: 149px;
+    opacity: 1;
+    border: none;
+    width: 84px;
+    height: 27px;}
+.txtval{
+    display: block;
+    text-align: left;
+    position: absolute;
+    font-family: "Open Sans";
+    font-size: 20px;
+    color: #FFFFFF;
+    left: 31px;
+    top: 149px;
+    opacity: 1;
+    border: none;
+    width: 84px;
+    height: 27px;}
+
+.arrup{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    left: 43.19px;}
+.arrdown{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    text-align: center;
+    bottom: 40px;
+    left: 43.19px;}
+.shopcart{
+    display: block;
+    position: absolute;
+    top: 51.5px;
+    right: 143.33px;
+    width: 33px;
+    height: 32px;
+    opacity: 1;
+    cursor: pointer;}
+/*==============*/
+
+
+/*SWITCH COLUMNS*/
+.column{
+    color: #606060;
+    position: absolute;
+    display: block;
+    left: 42px;
+    top: 330px;
+    bottom: 250px;
+    font-size: 25px;
+    text-align: center;
+    width: 26px;
+    height: 200px;
+    line-height: 46px;
+    scroll-behavior:auto;
+    overflow: auto;}
+.column::-webkit-scrollbar{
+    display: none;}
+
+.column2{
+    color: #606060;
+    position: absolute;
+    display: block;
+    left: 23px;
+    top: 330px;
+    bottom: 250px;
+    font-size: 22px;
+    text-align: center;
+    width: 65px;
+    height: 200px;
+    line-height:46px;
+    scroll-behavior:auto;
+    overflow: auto;}
+.column2::-webkit-scrollbar{
+    display: none;}
+/*JUST TRANSPARENT*/
+.idontexist{
+    color: transparent;
+    background-color: transparent;
+    size: 25px;}
+/*==============*/
+
+
+/*ENCABEZADO*/
+.compra{
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    position: absolute;
+    font-family: "Open Sans";
+    font-size: 30px;
+    color: #000000;
+    opacity: 1;
+    top: 16px;
+    left: 700px;
+    width: 230px;
+    height: 41px;
+    opacity: 1;
+    cursor: pointer;
+    background: transparent;}
+.saldo{
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    position: absolute;
+    font-family: "Open Sans";
+    font-size: 30px;
+    color: #000000;
+    opacity: 1;
+    top: 16px;
+    left: 972px;
+    width: 132px;
+    height: 41px;
+    opacity: 1;
+    cursor: pointer;
+    background: transparent;}
+.logo{
+    display: block;
+    position: absolute;
+    top: 43px;
+    left: 43px;
+    width: 196px;
+    height: 44px;
+    opacity: 1;}
+.search{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    top: 58px;
+    left: 1123.7px;
+    width: 27px;
+    height: 27px;
+    background: transparent;
+    opacity: 1;}
+/*==============*/
+
+
+/*SHINE TEXT*/
+c:hover{
+    color: #ffffff;
+    font-weight: 500;}
+/*==============*/
+
+
+/*GREEN BUTTON*/
+.greencard{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    top: 647px;
+    left: 1080px;
+    width: 160px;
+    height: 114px;
+    background: #d5ff43;
+    border-radius: 8px; /*Copiar medidas y el radius, el color está arriba--*/
+    opacity: 1;
+    padding: 0px;
+    border: none;}
+.buytxt{
+    display: block;
+    position: absolute;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: bold;
+    width: 111px;
+    height: 36px;
+    opacity: 1;
+    top: 45px;
+    left: 23px;}
+.metro{
+    display: block;
+    position: absolute;
+    top: 29px;
+    left: 15px;
+    width: 129px;
+    height: 29px;}
+.greencard:hover{
+    background-color: #e0ff72;}
+/*==============*/
+
+
+/*ITEM INFO*/
+.itemid{
+    display: block;
+    position: absolute;
+    font-family: "Open Sans";
+    top:620px;
+    left: 55px;
+    width: 716px;
+    height: 55px;
+    font-size: 40px;
+    font-weight: 600;}
+.amount{
+    display: block;
+    position: absolute;
+    font-family: "Open Sans";
+    top:700px;
+    left: 55px;
+    width: 139px;
+    height: 37px;
+    font-size: 27px;
+    font-weight: 600;}
+/*==============*/
+
+/*RECHARGE INFO*/
+.recharge{
+    display: block;
+    position: absolute;
+    top: 400px;
+    left: 301px;
+    width: 700px;
+    height: 55px;
+    font-size: 40px;
+    font-family: "Open Sans";
+    font-weight: 600;}
+.amountrec{
+    display: block;
+    position: absolute;
+    top: 477px;
+    left: 483px;
+    width: 329px;
+    height: 37px;
+    font-size: 27px;
+    font-family: "Open Sans";
+    font-weight: 600;}
+.amountbox{
+    top: 799px;
+    left: 595px;
+    width: 288px;
+    height: 58px;
+}
+/*==============*/
+
+
+/*CARD*/
+.metrolinea1{
+    display: block;
+    position: absolute;
+    width: 884px;
+    height: 497px;
+    top: 120px;
+    left: 125px;}
+
+.metrolinea2{
+    display: block;
+    position: absolute;
+    width: 576px;
+    height: 324px;
+    left: 359px;
+    top: 103px;}
+/*==============*/
