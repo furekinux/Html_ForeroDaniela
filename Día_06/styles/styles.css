@@ -232,7 +232,6 @@ c:hover{
 
 /*ITEM INFO*/
 .itemid{
-    display: block;
     position: absolute;
     font-family: "Open Sans";
     top:620px;
@@ -242,7 +241,6 @@ c:hover{
     font-size: 40px;
     font-weight: 600;}
 .amount{
-    display: block;
     position: absolute;
     font-family: "Open Sans";
     top:700px;
@@ -255,7 +253,6 @@ c:hover{
 
 /*RECHARGE INFO*/
 .recharge{
-    display: block;
     position: absolute;
     top: 400px;
     left: 301px;
@@ -264,8 +261,7 @@ c:hover{
     font-size: 40px;
     font-family: "Open Sans";
     font-weight: 600;}
-.amountrec{
-    display: block;
+.current{
     position: absolute;
     top: 477px;
     left: 483px;
@@ -274,16 +270,41 @@ c:hover{
     font-size: 27px;
     font-family: "Open Sans";
     font-weight: 600;}
+.chosen{
+    position: absolute;
+    width: 200px;
+    height: 37px;
+    top: 530px;
+    left: 539px;
+    font-size: 27px;
+    font-family: "Open Sans";
+    opacity: 1;
+    font-weight: 600;
+}
 .amountbox{
-    top: 799px;
-    left: 595px;
+    display: block;
+    position: absolute;
+    top: 599px;
+    left: 495px;
     width: 288px;
     height: 58px;
-}
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;}
+.torecharge{
+    display: block;
+    position: relative;
+    bottom: 14px;
+    left: 105.5px;
+    width: 77px;
+    height: 37px;
+    font-family: "Open Sans";
+    font-size: 27px;
+    opacity: 0.5;}
 /*==============*/
 
 
-/*CARD*/
+/*CARDS*/
 .metrolinea1{
     display: block;
     position: absolute;
