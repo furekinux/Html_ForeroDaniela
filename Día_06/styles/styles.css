@@ -25,10 +25,11 @@ html{
     border-radius: 0px 10px 10px 0px;}
 /*==============*/
 
+
 /*CANTIDAD BARRA*/
 .cant{
     display: block;
-    position: relative;
+    position: absolute;
     top: 0px;
     left: 1290px;
     width: 110px;
@@ -99,11 +100,10 @@ html{
     top: 330px;
     bottom: 250px;
     font-size: 25px;
-    text-align: center;
     width: 26px;
     height: 200px;
     line-height: 46px;
-    scroll-behavior:auto;
+    scroll-behavior:smooth;
     overflow: auto;}
 .column::-webkit-scrollbar{
     display: none;}
@@ -120,7 +120,7 @@ html{
     width: 65px;
     height: 200px;
     line-height:46px;
-    scroll-behavior:auto;
+    scroll-behavior: smooth;
     overflow: auto;}
 .column2::-webkit-scrollbar{
     display: none;}
@@ -148,7 +148,8 @@ html{
     height: 41px;
     opacity: 1;
     cursor: pointer;
-    background: transparent;}
+    background: transparent;
+    transition: underline 0.5s ease;}
 .saldo{
     text-decoration: none;
     display: block;
@@ -191,7 +192,13 @@ c:hover{
     color: #ffffff;
     font-weight: 500;}
 /*==============*/
-
+.compra:hover{
+    padding-bottom: 30px;
+    border-bottom: 2px solid #2ba227;}
+.saldo:hover{
+    padding-bottom: 30px;
+    border-bottom: 2px solid #2ba227;
+}
 
 /*GREEN BUTTON*/
 .greencard{
@@ -258,7 +265,7 @@ c:hover{
     left: 301px;
     width: 700px;
     height: 55px;
-    font-size: 40px;
+    font-size: 2.5em;
     font-family: "Open Sans";
     font-weight: 600;}
 .current{
@@ -275,32 +282,47 @@ c:hover{
     width: 200px;
     height: 37px;
     top: 530px;
-    left: 539px;
+    left: 545px;
     font-size: 27px;
     font-family: "Open Sans";
     opacity: 1;
-    font-weight: 600;
-}
-.amountbox{
+    font-weight: 600;}
+.torecharge{
     display: block;
     position: absolute;
     top: 599px;
     left: 495px;
     width: 288px;
     height: 58px;
-    border: 1px solid #707070;
-    border-radius: 10px;
-    opacity: 1;}
-.torecharge{
-    display: block;
-    position: relative;
-    bottom: 14px;
-    left: 105.5px;
-    width: 77px;
-    height: 37px;
     font-family: "Open Sans";
     font-size: 27px;
-    opacity: 0.5;}
+    opacity: 0.5;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+    color: #7f7f7f;
+    font-weight: 600;}
+.torecharge::placeholder{
+    opacity: 50%;
+    font-size: 20px;}
+.moneysym{
+    position: absolute;
+    top: 585px;
+    left: 370px;
+    width: 288px;
+    height: 58px;
+    font-family: "Open Sans";
+    font-size: 27px;
+    text-align: center;
+    background-color: transparent;
+    opacity: 1;
+    color: #999999;
+    font-weight: 600;}
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;}
 /*==============*/
 
 
