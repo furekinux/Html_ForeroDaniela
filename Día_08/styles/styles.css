@@ -1,59 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 html{
-    min-width: 1080px;
     background-color: #1e1d2b;}
+/*-----------------------*/
+
 
 /*-----------------------*/
 .headi{
     display: block;
-    position: absolute;
+    position: relative;
     color: #ff702a;
-    left: 6%;
-    top: 0%;
-    font-size: 280%;}
+    top:0.5vi;
+    left: 5vw;
+    font-size: 3vi;
+    font-weight: 600;}
 .home{
     display: block;
     position: absolute;
     color: #fff;
-    left: 61%;
-    top: 3%;
-    font-size: 190%;
+    top: 2vi;
+    left: 50vw;
+    font-size: 2vi;
+    margin-top: 2vi;
     cursor: pointer;
     font-weight: 600;}
 .about{
     display: block;
     position: absolute;
     color: #fff;
-    left: 67.5%;
-    top: 3%;
-    font-size: 190%;
+    top: 2vi;
+    left: 59vw;
+    font-size: 2vi;
+    margin: 2vi 0vi;
     cursor: pointer;
     font-weight: 600;}
 .menu{
     display: block;
     position: absolute;
     color: #fff;
-    left: 75%;
-    top: 3%;
-    font-size: 190%;
+    top: 2vi;
+    left: 69vw;
+    font-size: 2vi;
+    margin-top: 2vi;
     cursor: pointer;
     font-weight: 600;}
 .service{
     display: block;
     position: absolute;
     color: #fff;
-    left: 81%;
-    top: 3%;
-    font-size: 190%;
+    top: 2vi;
+    left: 78vw;
+    font-size: 2vi;
+    margin-top: 2vi;
     cursor: pointer;
     font-weight: 600;}
 .contact{
     display: block;
     position: absolute;
     color: #fff;
-    left: 89%;
-    top: 3%;
-    font-size: 190%;
+    top: 2vi;
+    left: 90vw;
+    font-size: 2vi;
+    margin-top: 2vi;
     cursor: pointer;
     font-weight: 600;}
 /*-----------------------*/
@@ -61,147 +69,178 @@ html{
 
 /*-----------------------*/
 .title{
-    font-weight: 600;
+    font-weight: 100;
     display: block;
     position: absolute;
     color: #ff702a;
-    left: 12.7%;
-    top: 24vh;
-    font-size: 5.5vmax;}
+    left: 12vw;
+    top: 11.5vi;
+    font-size: 6vi;}
 .subtitle{
-    font-weight: 300;
     display: block;
     position: absolute;
     color: #fff;
-    left: 13%;
-    top: 39vh;
-    font-size: 2.2vmax;
+    left: 12vw;
+    top: 23.5vi;
+    font-size: 2.2vi;
     font-weight: 600;}
 .subtitle2{
     font-weight: 600;
     display: block;
     position: absolute;
     color: #fff;
-    left: 13%;
-    top: 44vh;
-    font-size: 2.2vmax;}
+    left: 12vw;
+    top: 26vi;
+    font-size: 2.2vi;}
 .square{
     display: block;
     position: absolute;
     background-color: #ff702a;
     color: #fff;
-    height: 3.5%;
-    width: 11%;
+    height: 2.5vi;
+    width: 14vi;
     text-align: center;
-    padding: 0.5%;
+    padding: 0.5vi;
     font-weight: 600;
-    top: 53%;
-    left: 13%;
-    font-size: 160%;
+    top: 32vi;
+    left: 12vw;
+    font-size: 1.8vi;
     cursor: pointer;}
 .homa{
     display: block;
     position: absolute;
-    right: 12%;
-    top: 15.5%;
-    width: 33%;
+    right: 8vw;
+    top: 13vi;
+    width: 35vw;
     height: auto;}
 /*-----------------------*/
 
 
 /*-----------------------*/
 .abouti{
-    font-weight: 300;
+    font-weight: 600;
     display: block;
     position: absolute;
     color: #ff702a;
-    left:47%;
-    top: 100%;
-    font-size: 170%;}
+    left:50vw;
+    top: 63vi;
+    font-size:2vi;}
 .abouin{
-    font-weight: 300;
+    font-weight: 600;
     display: block;
     position: absolute;
     color: #ffffff;
-    left:47%;
-    top: 103%;
-    font-size: 310%;
-    width: 30%;}
+    left: 50vw;
+    top: 65vi;
+    font-size: 4vi;
+    width: 45vw;
+    line-height: 4vi;}
 .aboutimg{
     display: block;
     position: absolute;
-    top: 103%;
-    left: 12%;}
+    top: 65vi;
+    width: 35vw;
+    left: 12vw;}
 .abou{
-    font-weight: 300;
+    font-weight: 600;
     display: block;
     position: absolute;
     color: #ffffff;
-    left:47%;
-    top: 120%;
-    font-size: 150%;
-    width: 28%;}
+    left:50vw;
+    top: 77vi;
+    font-size: 1.7vi;
+    width: 35vw;}
 .learn{
     display: block;
     position: absolute;
     background-color: #ff702a;
     color: #fff;
-    height: 3.5%;
-    width: 11%;
+    height: 3vi;
+    width: 12vw;
     text-align: center;
     padding-top: 0.7%;
     padding-bottom: 0.45%;
     font-weight: 600;
-    top: 131%;
-    left:47%;
-    font-size: 160%;
+    top: 83vi;
+    left: 50vw;
+    font-size: 1.7vi;
     cursor: pointer;}
 /*-----------------------*/
 
 
 /*-----------------------*/
 .menuti{
-    font-weight: 300;
     display: block;
     position: absolute;
     color: #ff702a;
-    left: 40%;
-    right: 40%;
-    font-size: 190%;
-    top: 175%;}
+    font-size: 2vi;
+    top: 110vi;
+    text-align: center;}
 .descr{
-    display: block;
+    display: flex;
     position: absolute;
-    font-weight: 300;
+    font-weight: 600;
     color: #ffffff;
-    top: 178%;
-    font-size: 310%;
-    left: 20%;
-    right: 20%;}  
+    top: 111vi;
+    font-size: 3.5vi;
+    left: 24.9vw;
+    right: 24.9vw;
+    justify-content: center;}  
 .square1{
     background-color: #ffefe8;
-    width: 18%;
+    width: 20vw;
+    top: 124vi; 
     height: auto;
-    display:block;
     position: absolute;
     border: 10px double #1e1e1e;
-    padding-bottom: 0.5%;}
+    padding: 0.3vi;}
+.menuname{
+    font-weight: 600;
+    margin-bottom: 0vi;
+    text-align: center;
+    margin-top: 13vi;
+    font-size: 1.8vi;}
+.tasty{
+    font-weight: 600;
+    margin-bottom: 0vi;
+    text-align: center;
+    margin-top: 0.5vi;
+    font-size: 1.5vi;}
 /*-----------------------*/
 
 
 /*-----------------------*/
 .services{
+    top: 165vi;
     font-weight: 300;
     display: block;
+    position: absolute;
     color: #ff702a;
-    font-size: 190%;}
+    font-size: 2vi;}
 .descrser{
     display: block;
-    position: relative;
-    font-weight: 300;
+    position: absolute;
+    font-weight: 600;
     color: #ffffff;
-    top: 254%;
-    font-size: 310%;} 
+    top: 167vi;
+    font-size: 3.5vi;} 
+.subtiser{
+    display: block;
+    position: absolute;
+    color: #ff702a;
+    font-size: 2.5vi;
+    top: 190vi;
+    margin-bottom: 0vi;}
+.servinfo{
+    font-weight: 600;
+    display: block;
+    position: relative;
+    color: #ffffff;
+    font-size: 1.6vi;
+    top: 188vi;
+    text-align: center;
+    width: 29.68vw;
+    margin-top: 0vi;}
 /*-----------------------*/
 
 
