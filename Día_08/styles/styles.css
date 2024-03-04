@@ -245,3 +245,10 @@ html{
 
 
 /*-----------------------*/
+.circle{
+    display: inline;
+    background-color: #ff702a;
+    width: 3vi;
+    height: 3vi;
+    border-radius: 10vi;
+}
