@@ -1,30 +1,45 @@
 html{
-    background-color: #5B616A;
+    background-color: #D77A61;
+}
+
+.background{
+    background-color: #DBD3D8;
+    margin: 2vi;
+    height: 100vh;
 }
 
 #flexbox{
-    display: flexbox;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    margin: 3vi;
+    margin: 2vi;
     justify-content: space-between;
 }
 
 .items{
     display: inline-flex;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    width: 20vi;
-    height: auto;
-    background-color: #FCF7F8;
+    margin: 50px;
+    width: 200px;
+    height: 90px;
+    background-color: #EFF1F3;
     text-align: center;
-    font-size: 1.5vi;
-    margin: 2vi;
     padding: 3vi;
-    padding-top: 1vi;
+    padding-top: 1.5vi;
     padding-bottom: 1vi;
+    
+}
+
+.itemstxt{
+    color: #223843;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 2vi;
+    margin-right: 2vi;
 }
 
 .itemimg{
-    display: inline-flex;
-    width: 5vi;
+    margin-top: 1vi;
+    width: 60px;
+    height: 65px;
 }
