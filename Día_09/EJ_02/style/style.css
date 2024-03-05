@@ -5,7 +5,8 @@ html{
 .background{
     background-color: #DBD3D8;
     margin: 2vi;
-    height: 100vh;
+    height:fit-content;
+    justify-items: center;
 }
 
 #flexbox{
@@ -13,33 +14,25 @@ html{
     flex-wrap: wrap;
     flex-direction: row;
     margin: 2vi;
-    justify-content: space-between;
 }
 
 .items{
     display: inline-flex;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 50px;
-    width: 200px;
+    width: 180px;
     height: 90px;
-    background-color: #EFF1F3;
-    text-align: center;
-    padding: 3vi;
-    padding-top: 1.5vi;
-    padding-bottom: 1vi;
-    
-}
-
-.itemstxt{
     color: #223843;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     margin: 2vi;
     margin-right: 2vi;
+    background-color: #EFF1F3;
+    text-align: center;
+    padding: 1vi;
 }
-
 .itemimg{
-    margin-top: 1vi;
+    margin-top: 15px;
+    margin-left: 5px;
     width: 60px;
     height: 65px;
 }
