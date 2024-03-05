@@ -1,0 +1,56 @@
+html{
+    background-color: #301014;
+}
+#flexbar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #51291E;
+    align-content: center;
+    margin: 0vi;
+    margin-top: 20vi;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2vi;
+    padding-left: 8vi;
+    padding-right: 8vi;
+    border: 1vi double #301014;
+}
+.indivsquare{
+    width: 10vi;
+    height: auto;
+    background-color: #EDF4ED;
+    border:ridge 0.6vi #79B791;
+    padding: 1vi;
+    text-align: center;
+    font-size: 1.5vi;
+    font-weight: 600;
+    color: #273e49;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#ho1:hover{
+    background-color: #abf7ff;
+    text-decoration: underline;
+    border:ridge 0.6vi #79a0b7;
+    color: #436a81;
+}
+#ho2:hover{
+    background-color: #ffcbf4;
+    text-decoration: underline;
+    border:ridge 0.6vi #b7799b;
+    color: #945578;
+}
+#ho3:hover{
+    background-color: #fff7b4;
+    text-decoration: underline;
+    border:ridge 0.6vi #e0a782;
+    color: #924d3a;
+}
+#ho4:hover{
+    background-color: #ff8680;
+    text-decoration: underline;
+    border:ridge 0.6vi #b6322b;
+    color: #8D0801;
+}
