@@ -29,14 +29,14 @@ html{
     grid-column: 2/3;
     border: 2px transparent #262e24;
     border-radius: 4vi;
-    height: 60vi;
+    height: 60.8vi;
     width: 44vi;
 }
 .item4{
     grid-column: 1/3;
     border: 2px transparent #00aeff;
     border-radius: 4vi;
-    height: 52.5vi;
-    width: 92.5vi;
+    height: 52.2vi;
+    width: 92.2vi;
     overflow: hidden;
 }
