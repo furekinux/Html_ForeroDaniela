@@ -248,19 +248,9 @@ body{
         transform:scaleY(100%);
         top: 40vi;
     }
-    16%{
-        opacity: 100%;
-        transform:scaleY(100%);
-        top: 40vi;
-    }
-    18%{
-        opacity: 100%;
-        transform: scaleY(90%);
-        top: 40.5vi;
-    }
     20%{
         opacity: 100%;
-        transform: scaleY(100%);
+        transform:scaleY(100%);
         top: 40vi;
     }
     22%{
@@ -273,7 +263,17 @@ body{
         transform: scaleY(100%);
         top: 40vi;
     }
-    40%{
+    26%{
+        opacity: 100%;
+        transform: scaleY(90%);
+        top: 40.5vi;
+    }
+    28%{
+        opacity: 100%;
+        transform: scaleY(100%);
+        top: 40vi;
+    }
+    30%{
         opacity: 100%;
         transform: scaleY(100%);
         top: 40vi;
