@@ -1,0 +1,379 @@
+html{
+    background-color: #000000;
+    background-image: url("https://wallpaperset.com/w/full/3/5/9/542838.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: fill;
+    overflow: hidden;
+}
+body{
+    margin: 0vi;
+    padding: 0vi;
+}
+/*##########################*/
+
+
+/*##########################*/
+.scenary{
+    display: flex;
+    justify-content: right;
+    margin: 0vi;
+    margin-top: 4.03vi;
+    margin-bottom: 0vi;
+}
+.house{
+    width: 100vi;
+    height: auto;
+    left: 59.2vi;
+}
+.bush{
+    top: 39vi;
+    position: absolute;
+    width: 30vi;
+}
+/*##########################*/
+
+
+/*##########################*/
+.cloud{
+    opacity: 0%;
+    width: 32vi;
+    position: absolute;
+    top: 0.5vi;
+    animation: 20s 4s nubego;
+    transition:rotate 2s;
+}
+.cloud:hover { /* :D */
+  rotate: 6106deg;
+}
+@keyframes nubego {
+    0%{
+        opacity: 100%;
+        left: -50%;
+    }
+    5%{
+        opacity: 100%;
+        left:1vi
+    }
+    9%{
+        opacity: 100%;
+        left:1vi
+    }
+    14%{
+        opacity: 100%;
+        left: 1vi;
+    }
+    20%{
+        opacity: 100%;
+        left:1vi
+    }
+    90%{
+        opacity: 0%;
+    }
+    100%{
+        left: 100vi;
+    }
+}
+/*##########################*/
+
+
+/*##########################*/
+.sun{
+    opacity: 0%;
+    left: 1vi;
+    width: 15vi;
+    position: absolute;
+    top: 1vi;
+    animation: 40s/*DURATION*/ 0s/*DELAY*/ sunny;
+}
+@keyframes sunny {
+    0%{
+        opacity: 0%;
+    }
+    20%{
+        opacity: 0%;
+    }
+    70%{
+        opacity: 100%;
+    }
+    80%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+/*##########################*/
+
+
+/*##########################*/
+.flowey{
+    opacity: 0%;
+    position: absolute;
+    width: 10vi;
+    top: 32vi;
+    left: 12vi;
+    animation: 10s 17s flower;
+}
+@keyframes flower{
+    0%{
+        opacity: 0%;
+        top: 60vi;
+    }
+    2%{
+        opacity: 100%;
+        transform: scaleY(70%);
+        top: 31.5vi;
+    }
+    4%{
+        opacity: 100%;
+        transform: scaleY(100%);
+    }
+    6%{
+        opacity: 100%;
+        transform: scaleY(90%);
+        top: 32vi;
+    }
+    8%{
+        opacity: 100%;
+        transform: scaleY(100%);
+        top: 31.5vi;
+    }
+    10%{
+        opacity: 100%;
+        transform: scaleY(90%);
+        top: 32vi;
+    }
+    12%{
+        opacity: 100%;
+        transform: scaleY(100%);
+        top: 31.5vi;
+    }
+    15%{
+        opacity: 100%;
+        transform: scaleY(90%);
+        top: 32vi;
+    }
+    20%{
+        opacity: 100%;
+        transform: scaleY(100%);
+        top: 31.5vi;
+    }
+    25%{
+        opacity: 100%;
+        transform: scaleY(90%);
+        top: 32vi;
+    }
+    30%{
+        opacity: 100%;
+        transform: scaleY(100%);
+        top: 31.5vi;
+    }
+    35%{
+        opacity: 100%;
+        transform: scaleY(90%);
+        top: 32vi;
+    }
+    40%{
+        opacity: 100%;
+        transform: scaleY(100%);
+        top: 31.5vi;
+    }
+    45%{
+        opacity: 100%;
+        transform: scaleY(90%);
+        top: 32vi;
+    }
+    50%{
+        opacity: 100%;
+        transform: scaleY(100%);
+        top: 31.5vi;
+    }
+    55%{
+        opacity: 100%;
+        transform: scaleY(90%);
+        top: 32vi;
+    }
+    60%{
+        opacity: 100%;
+        transform: scaleY(100%);
+        top: 31.5vi;
+    }
+    80%{
+        opacity: 100%;
+    }
+    95%{
+        opacity: 100%;
+        transform: scaleY(100%);
+        top: 31.5vi;
+    }
+    97%{
+        opacity: 100%;
+        transform: scaleY(120%);
+        top: 30vi;
+    }
+    100%{
+        opacity: 100%;
+        transform: scaleY(20%);
+        top: 60vi;
+    }
+}
+
+.flowey2{
+    opacity: 0%;
+    position: absolute;
+    width: 10vi;
+    top: 40vi;
+    left: 50vi;
+    animation: 4s 28s flower2;
+}
+@keyframes flower2{
+    0%{
+        opacity: 100%;
+        transform:scaleY(40%);
+        top: 42vi;
+    }
+    5%{
+        opacity: 100%;
+        transform:scaleY(140%);
+        top: 35vi;
+    }
+    8%{
+        opacity: 100%;
+        transform:scaleY(100%);
+        top: 39vi;
+    }
+    16%{
+        opacity: 100%;
+        transform:scaleY(100%);
+        top: 39vi;
+    }
+    18%{
+        opacity: 100%;
+        transform: scaleY(90%);
+        top: 39.5vi;
+    }
+    20%{
+        opacity: 100%;
+        transform: scaleY(100%);
+        top: 39vi;
+    }
+    22%{
+        opacity: 100%;
+        transform: scaleY(90%);
+        top: 39.5vi;
+    }
+    24%{
+        opacity: 100%;
+        transform: scaleY(100%);
+        top: 39vi;
+    }
+    40%{
+        opacity: 100%;
+        transform: scaleY(100%);
+        top: 39vi;
+    }
+    94%{
+        opacity: 100%;
+        transform:scaleY(100%);
+        top: 39vi;
+    }
+    96%{
+        opacity: 100%;
+        transform: scaleY(120%);
+        top: 35vi;
+    }
+    100%{
+        opacity: 100%;
+        transform: scaleY(20%);
+        top: 70vi;
+    }
+}
+/*##########################*/
+
+
+/*##########################*/
+.rain{
+    opacity: 100%;
+    position: absolute;
+    width: 2vi;
+}
+.rain1{
+    top: 60vi;
+    position: absolute;
+    width: 2vi;
+    left: 8vi;
+    animation: 3s 5s rain1;
+}
+.rain2{
+    top: 58vi;
+    position: absolute;
+    width: 2vi;
+    left: 11vi;
+    animation: 3s 5s rain2;
+}
+.rain3{
+    top: 60vi;
+    position: absolute;
+    width: 2vi;
+    left: 15vi;
+    animation: 3s 5s rain1;
+}
+.rain4{
+    top: 60vi;
+    position: absolute;
+    width: 2vi;
+    left: 19vi;
+    animation: 3s 5s rain2;
+}
+.rain5{
+    top: 58vi;
+    position: absolute;
+    width: 2vi;
+    left: 23vi;
+    animation: 3s 5s rain1;
+}
+/*-------------------------*/
+@keyframes rain1 {
+    0%{
+        opacity: 100%;
+        top: 13vi
+    }
+    20%{
+        opacity: 100%;
+        top: 30vi
+    }
+    100%{
+        opacity: 0%;
+        top: 50vi
+    }
+}
+@keyframes rain2 {
+    0%{
+        opacity: 100%;
+        top: 13vi
+    }
+    20%{
+        opacity: 100%;
+        top: 38vi
+    }
+    100%{
+        opacity: 0%;
+        top: 58vi
+    }
+}
+@keyframes rain3 {
+    0%{
+        opacity: 100%;
+        top: 13vi
+    }
+    20%{
+        opacity: 100%;
+        top: 30vi
+    }
+    100%{
+        opacity: 0%;
+        top: 50vi
+    }
+}
+/*##########################*/
