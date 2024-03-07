@@ -437,18 +437,4 @@ body{
         top: 58vi
     }
 }
-@keyframes rain3 {
-    0%{
-        opacity: 100%;
-        top: 13vi
-    }
-    20%{
-        opacity: 100%;
-        top: 30vi
-    }
-    100%{
-        opacity: 0%;
-        top: 50vi
-    }
-}
 /*##########################*/
