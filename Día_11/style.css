@@ -72,7 +72,7 @@ body{
         opacity: 100%;
         left:1vi
     }
-    90%{
+    70%{
         opacity: 0%;
     }
     100%{
@@ -236,62 +236,62 @@ body{
     0%{
         opacity: 100%;
         transform:scaleY(40%);
-        top: 42vi;
+        top: 43vi;
     }
     5%{
         opacity: 100%;
         transform:scaleY(140%);
-        top: 35vi;
+        top: 36vi;
     }
     8%{
         opacity: 100%;
         transform:scaleY(100%);
-        top: 39vi;
+        top: 40vi;
     }
     16%{
         opacity: 100%;
         transform:scaleY(100%);
-        top: 39vi;
+        top: 40vi;
     }
     18%{
         opacity: 100%;
         transform: scaleY(90%);
-        top: 39.5vi;
+        top: 40.5vi;
     }
     20%{
         opacity: 100%;
         transform: scaleY(100%);
-        top: 39vi;
+        top: 40vi;
     }
     22%{
         opacity: 100%;
         transform: scaleY(90%);
-        top: 39.5vi;
+        top: 40.5vi;
     }
     24%{
         opacity: 100%;
         transform: scaleY(100%);
-        top: 39vi;
+        top: 40vi;
     }
     40%{
         opacity: 100%;
         transform: scaleY(100%);
-        top: 39vi;
+        top: 40vi;
     }
     94%{
         opacity: 100%;
         transform:scaleY(100%);
-        top: 39vi;
+        top: 40vi;
     }
     96%{
         opacity: 100%;
-        transform: scaleY(120%);
-        top: 35vi;
+        transform: scaleY(140%);
+        top: 36vi;
     }
     100%{
         opacity: 100%;
         transform: scaleY(20%);
-        top: 70vi;
+        top: 64vi;
     }
 }
 /*##########################*/
@@ -315,7 +315,7 @@ body{
     position: absolute;
     width: 2vi;
     left: 11vi;
-    animation: 3s 5s rain2;
+    animation: 3s 6.5s rain2;
 }
 .rain3{
     top: 60vi;
@@ -329,14 +329,84 @@ body{
     position: absolute;
     width: 2vi;
     left: 19vi;
-    animation: 3s 5s rain2;
+    animation: 3s 6s rain2;
 }
 .rain5{
     top: 58vi;
     position: absolute;
     width: 2vi;
     left: 23vi;
-    animation: 3s 5s rain1;
+    animation: 3s 5.5s rain1;
+}
+.rain6{
+    top: 60vi;
+    position: absolute;
+    width: 2vi;
+    left: 8vi;
+    animation: 3s 6s rain1;
+}
+.rain7{
+    top: 58vi;
+    position: absolute;
+    width: 2vi;
+    left: 11vi;
+    animation: 3s 6.5s rain2;
+}
+.rain8{
+    top: 60vi;
+    position: absolute;
+    width: 2vi;
+    left: 15vi;
+    animation: 3s 6s rain1;
+}
+.rain9{
+    top: 60vi;
+    position: absolute;
+    width: 2vi;
+    left: 19vi;
+    animation: 3s 5s rain2;
+}
+.rain10{
+    top: 58vi;
+    position: absolute;
+    width: 2vi;
+    left: 23vi;
+    animation: 3s 6s rain1;
+}
+.rain11{
+    top: 60vi;
+    position: absolute;
+    width: 2vi;
+    left: 8vi;
+    animation: 3s 7s rain1;
+}
+.rain12{
+    top: 58vi;
+    position: absolute;
+    width: 2vi;
+    left: 11vi;
+    animation: 3s 6s rain2;
+}
+.rain13{
+    top: 60vi;
+    position: absolute;
+    width: 2vi;
+    left: 15vi;
+    animation: 3s 6.5s rain1;
+}
+.rain14{
+    top: 60vi;
+    position: absolute;
+    width: 2vi;
+    left: 19vi;
+    animation: 3s 7s rain2;
+}
+.rain15{
+    top: 58vi;
+    position: absolute;
+    width: 2vi;
+    left: 23vi;
+    animation: 3s 6s rain1;
 }
 /*-------------------------*/
 @keyframes rain1 {
