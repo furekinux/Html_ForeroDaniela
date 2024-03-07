@@ -41,6 +41,7 @@ body{
 
 /*##########################*/
 .cloud{
+    z-index: -1;
     opacity: 0%;
     width: 32vi;
     position: absolute;
